@@ -1,0 +1,5 @@
+f	Número total de andares do edifício
+s	Andar inicial
+g	Andar de destino
+u	Quantos andares o elevador sobe por pressionamento
+d	Quantos andares o elevador desce por pressionamento
