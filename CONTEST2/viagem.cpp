@@ -30,6 +30,8 @@ int main(){
             }
         }
 
+
+        //declarações pre algoritmo
         vector<int> distancia(n+1,INT_MAX);
         distancia[1]=0;
         vector<int> distanciaAviao(n + 1, INT_MAX);
@@ -50,6 +52,8 @@ int main(){
         filaO.push({0,1});//custo zero pra cidade 1
         filaA.push({0,1});
 
+
+        //algoritmo com 2 while
         while(!filaO.empty()){
             pair<int,int> atual = filaO.top();//ve o par com menor custo
             filaO.pop();//tira ele 
